@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 ul {
     list-style-type: none;
 }
+
 a {
     text-decoration: none;
 }
@@ -14,15 +16,65 @@ a {
     display: inline-block;
     margin-right: 59px;
     color: #FFFFFF;
-    size: 12px;
+    font-size: 12px;
+}
+
+.navbar {
+    width: 100%;
+    text-align: right;
+    position: fixed;
+    top: 28px;
 }
 
 .header-block {
-   background-image: url("images/main.jpg")
+    height: 899px;
+    width: 100%;
+    background-image: url("images/main.jpg");
+    padding-top: 28px;
+    position: relative;
 }
+
+.header-image-text {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: bold;
+    position: absolute;
+    bottom: 45.5px;
+    left: 180px;
+}
+
+.buttons {
+    display: inline-block;
+    margin-left: 180px;
+    margin-top: 45.64px;
+}
+
+
+.buttons span:first-child {
+    margin-right: 30px;
+    color: #262626;
+    font-size: 11px;
+    font-family: 'tisa';
+    font-weight: bold;
+
+
+}
+
+.buttons span:last-child {
+    background-color: #0865DE;
+    color: #FFFFFF;
+    font-size: 12px;
+    display: inline-block;
+    padding: 8.79px 16px;
+    font-family: 'tisa';
+    font-weight: bold;
+
+}
+
 .p-first {
     padding: 180px;
 }
+
 .p-first-title h2{
     color: #262626;
     font-size: 32.7px;
@@ -30,6 +82,7 @@ a {
     opacity: 1;
     font-family: 'tisa';
 }
+
 .p-first-text p{
     color: #434343;
     font-size: 25px;
@@ -37,4 +90,30 @@ a {
     letter-spacing: 0px;
     opacity: 1;
     margin-top: 72px;
+    font-family: 'tisa';
 }
+
+.buttons-2 {
+    display: inline-block;
+    margin-left: 180px;
+    margin-top: 64px;
+}
+
+.buttons-2 span:nth-child(1) {
+    color: #959595;
+    font-size: 14px;
+    margin-right: 90px;
+}
+
+.buttons-2 span:nth-child(2) {
+    color: #959595;
+    font-size: 18px;
+    margin-right: 90px;
+}
+
+.buttons-2 span:nth-child(3) {
+    color: #959595;
+    font-size: 18px;
+}
+
+/* my part ends here  */
