@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+.navbar-li {
+    display: inline-block;
+    margin-right: 59px;
+    color: #FFFFFF;
+    size: 12px;
+}
+
+.header-block {
+   background-image: url("images/main.jpg")
+}
+.p-first {
+    padding: 180px;
+}
+.p-first-title h2{
+    color: #262626;
+    font-size: 32.7px;
+    text-align: left;
+    opacity: 1;
+    font-family: 'tisa';
+}
+.p-first-text p{
+    color: #434343;
+    font-size: 25px;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-top: 72px;
+}
