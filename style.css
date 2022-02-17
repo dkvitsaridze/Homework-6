@@ -136,7 +136,7 @@ body{
     color: #262626;
     font-size: 25px;
     line-height: 30px;
-    
+    font-family: 'BrandonGrotesque-Bold';
 }
 .objectives-paragraph{
     width: 655px;
@@ -144,6 +144,7 @@ body{
     font-size: 18px;
     line-height: 33.3px;
     margin-top: 30px;
+    font-family: 'Tisa';
 }
 .public-block{
     display: inline-block;
@@ -161,6 +162,7 @@ body{
     color: #262626;
     font-size: 25px;
     line-height: 30px;
+    font-family: 'BrandonGrotesque-Bold';
 }
 .public-article{
     margin-top: 30px;
@@ -168,6 +170,7 @@ body{
     color: #434343;
     font-size: 18px;
     line-height: 33.3px;
+    font-family: 'Tisa';
 }
 .dispositif-block{
     display: inline-block;
@@ -185,6 +188,7 @@ body{
     color: #262626;
     font-size: 25px;
     line-height: 30px;
+    font-family: 'BrandonGrotesque-Bold';
 }
 .dispositif-li-special{
     display: inline-block;
@@ -192,6 +196,7 @@ body{
     font-size: 11px;
     line-height: 20px;
     margin-right: 28px;
+    font-family: 'Arial'
 }
 .dispositif-list{
     margin-top: 45px;
@@ -208,6 +213,7 @@ body{
     margin-top: 72px;
     color: #434343;
     font-size: 18px;
+    font-family: 'Tisa';
     line-height: 33.3px;
 }
 .L’EQUIPE-content{
@@ -227,6 +233,7 @@ body{
     color: #262626;
     font-size: 25px;
     line-height: 30px;
+    font-family: 'BrandonGrotesque-Bold';
 }
 .L’EQUIPE-image {
     max-width: 32px;
@@ -237,6 +244,8 @@ body{
 .single-image{
     max-height: 32px;
     max-width: 32px;
+    vertical-align: top;
+    margin-top: 27px;
 }
 .L’EQUIPE-text {
     display: inline-block;
@@ -244,9 +253,32 @@ body{
     width: 182px;
     height: 162.8px;
     margin-top: 13px;
+    margin-left: -15px;
 }
 .L’EQUIPE-text h5{
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 18px;
+    font-family: 'BrandonGrotesque-Bold';
+    margin-top: 36px;
+    margin-left: 15.5px;
+    height: 38px;
+    width: 151px;
+}
+.L’EQUIPE-span1{
+    color: #FFFFFF;
+    font-size: 10px;
+    line-height: 16px;
+    margin-top: 10px;
+    font-family: 'Arial'
+}
+.L’EQUIPE-article{
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 10px;
+    width: 152px;
+    margin-left: 15px;
+    height: 33px;
+    font-family: 'Tisa';
 }
